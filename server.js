@@ -1,5 +1,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
+let orm = require("./config/orm.js");
 
 let PORT = process.env.PORT || 8080;
 

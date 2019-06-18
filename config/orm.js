@@ -10,7 +10,9 @@ let orm = {
 
     },
     updateOne: function() {
-        
+
     }
 
 }
+
+module.exports = orm;
