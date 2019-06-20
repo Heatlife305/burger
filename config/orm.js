@@ -1,4 +1,4 @@
-const connection = require("./connection.js");
+let connection = require("../config/connection");
 
 /* In order to write the query, we need 3 question marks.
  The function below loops through and creates an array of question marks  ["?", "?", "?"]  and turns it into a string.
